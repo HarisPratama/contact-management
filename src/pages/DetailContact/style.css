@@ -1,0 +1,56 @@
+.container-detail-contact {
+    background-color: #ecf0f1;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-detail-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-detail-photo img {
+    object-fit: cover;
+    width: 140px;
+    height: 140px;
+}
+
+.contact-detail-photo .default-profile {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.contact-detail-photo .default-profile p {
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.contact-detail-socmed {
+    display: flex;
+    /* margin-top: 10px; */
+    gap: 20px;
+    align-items: center;
+}
+
+.contact-detail-socmed-item {
+    cursor: pointer;
+    height: 20px;
+}
+
+.contact-detail-back {
+    margin-top: 40px;
+}
